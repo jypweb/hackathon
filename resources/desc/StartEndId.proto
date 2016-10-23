@@ -1,0 +1,12 @@
+package ingenico.transaction;
+
+
+// StartEnd Service Identifier code
+enum StartEndServiceId
+{
+	SE_START = 1;
+	SE_CHECK_PREPARE = 2;	
+	SE_END = 3;
+}
+
+

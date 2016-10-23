@@ -1,0 +1,54 @@
+package ingenico.transaction;
+
+import "StartEndId.proto";
+
+
+message ExecuteSERequest
+{
+	// Service Id
+	optional StartEndServiceId serviceId = 1;	
+	
+	// Input data
+	optional bytes input = 2;
+}
+
+message ExecuteSEResponse
+{
+	// Returned data
+	optional bytes output = 1;
+	
+	// Result
+	optional int32 return = 2;	
+}
+
+
+message GetSEImplementedMethodsRequest
+{
+	// Input data
+}
+  
+message GetSEImplementedMethodsResponse
+{
+	// Result
+	optional int32 return = 1;	
+
+	// Returned data
+	message MethodInfoResponse 
+	{
+		required int32 id = 1;
+		optional int32 priority = 2;
+	}
+  
+	repeated MethodInfoResponse supportedMethods = 2;
+}
+
+
+
+
+// This interface allows to manage the start and end of a transaction.
+service StartEnd
+{
+	rpc	executeSE(ExecuteSERequest) returns (ExecuteSEResponse);	
+	rpc	getSEImplementedMethods(GetSEImplementedMethodsRequest) returns (GetSEImplementedMethodsResponse);
+
+}

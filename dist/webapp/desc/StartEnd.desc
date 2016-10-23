@@ -1,0 +1,27 @@
+
+m
+StartEndId.protoingenico.transaction*C
+StartEndServiceId
+SE_START
+SE_CHECK_PREPARE
+
+SE_END
+®
+StartEnd.protoingenico.transactionStartEndId.proto"]
+ExecuteSERequest:
+	serviceId (2'.ingenico.transaction.StartEndServiceId
+input ("3
+ExecuteSEResponse
+output (
+return (" 
+GetSEImplementedMethodsRequest"É
+GetSEImplementedMethodsResponse
+return (b
+supportedMethods (2H.ingenico.transaction.GetSEImplementedMethodsResponse.MethodInfoResponse2
+MethodInfoResponse
+
+id (
+priority (2ñ
+StartEnd\
+	executeSE&.ingenico.transaction.ExecuteSERequest'.ingenico.transaction.ExecuteSEResponse†
+getSEImplementedMethods4.ingenico.transaction.GetSEImplementedMethodsRequest5.ingenico.transaction.GetSEImplementedMethodsResponse

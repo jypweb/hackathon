@@ -1,0 +1,93 @@
+body {
+  background-image: url('../img/hackbg.png');
+  background-position: top;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  color: #fff;
+  font-size: 24px;
+  font-style: normal;
+  font-family: Arial, "helvetica Neue", Helvetica, sans-serif;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+#listening {
+  line-height: 460px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+#start {
+  text-align: center;
+}
+#start img {
+  margin-top:80px;
+}
+.isAMember__logo {
+  margin-top: 20px;
+  text-align: center;
+}
+.isAMember__text {
+  margin-top: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+.isAMember__points {
+  font-size: 36px;
+  text-align: center;
+}
+
+#isAMemberRedeem,.button {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  border-style: none;
+  background-color: #fff;
+  color: #c1272d;
+  width: 270px;
+  padding: 15px 0;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.buttonContainer {
+  text-align: center;
+}
+
+.thankYou__logo {
+  margin-top: 60px;
+  text-align: center;
+}
+.thankYou__text {
+  text-align: center;
+  margin-bottom: 15px;
+}
+.thankYou__points {
+  font-size: 18px;
+  text-align: center;
+}
+
+.phoneNumber__logo {
+  margin-top: 15px;
+  text-align: center;
+  margin-bottom: 25px;
+}
+.phoneNumber__text {
+  font-size: 18px;
+  font-weight: normal;
+  text-align: center;
+}
+#phoneNumberValue {
+  font-size: 36px;
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Yellow Submarine</title>
+  <link href="css/app.css" rel="stylesheet" />
+  <script src="js/vendor/tetra.js" type="text/javascript"></script>
+  <script src="js/vendor/ISO4217.js" type="text/javascript"></script>
+</head>
+<body>
+
+  <div id="listening" class="show">We are listening...</div>
+
+  <div id="start" class="hide">
+    <div class="start__logo"><img src="img/card.png"/></div>
+    <p id="start__text" class="start__text">Tap, Insert or<br>Swipe Card<br>to Begin</p>
+  </div>
+
+  <div id="phoneNumber" class="hide">
+    <div class="phoneNumber__logo"><img src="img/phone.png"/></div>
+    <p class="phoneNumber__text">Use keypad to enter your<br>mobile number</p>
+    <p id="phoneNumberValue"></p>
+    <div class="buttonContainer">
+      <button id="submitPhoneNumber" class="button">Enter</button>
+      <button id="skipPhoneJoin" class="button">Skip</button>
+    </div>
+  </div>
+
+  <div id="isAMember" class="hide">
+    <div class="isAMember__logo"><img src="img/money.png"/></div>
+    <p class="isAMember__text">You have this many points</p>
+    <p id="memberPointCount" class="isAMember__points">2,345</p> <!--To Be Replaced -->
+    <div class="buttonContainer">
+      <button id="isAMemberRedeem" class="button">Redeem</button>
+      <button id="isAMemberEarn" class="button">Earn</button>
+    </div>
+  </div>
+
+  <div id="thankYou" class="hide">
+    <div class="thankYou__logo"><img src="img/smiley.png"/></div>
+    <p class="thankYou__text">Thank You</p>
+    <p class="thankYou__points">You've earned <span id="pointCount">0</span> points!</p>
+  </div>
+
+  <script src="js/app.js" type="text/javascript"></script>
+</body>
+</html>
